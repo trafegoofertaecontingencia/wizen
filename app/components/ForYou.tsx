@@ -3,7 +3,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 export default function Bullets() {
     return (
         <div className="mt-15 flex flex-col items-center">
-            <h1 className="uppercase text-2xl font-bold text-center m-8 mt-0 mb-3">Esse app é perfeito pra você se:</h1>
+            <h1 className="uppercase text-2xl font-bold text-center m-8 mt-0 ">Esse app é perfeito pra você se:</h1>
             <ul className="m-6 mt-0 flex flex-col gap-1 mb-4">
                 <li className="flex gap-3 items-center">
                     <IoIosCheckmarkCircle className="text-blue-500 text-2xl" />

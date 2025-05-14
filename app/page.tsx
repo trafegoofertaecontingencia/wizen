@@ -1,6 +1,7 @@
 import Bullets from "./components/Bullets";
 import Intro from "./components/Intro";
 import ForYou from "./components/ForYou";
+import Solution from "./components/Solution"
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Intro />
         <Bullets />
         <ForYou />
+        <Solution />
       </main>
     </div>
   );
