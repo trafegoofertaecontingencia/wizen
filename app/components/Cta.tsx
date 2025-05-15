@@ -1,6 +1,6 @@
 export default function Cta() {
     return (
-        <div className="flex flex-col items-center mt-15">
+        <div  id="cta" className="flex flex-col items-center mt-15">
             <p>Assine agora!</p>
             <p className="md:text-4xl text-center bg-blue-200 p-3 rounded-md font-bold">Você só paga se funcionar.</p>
             <p className="text-center">Se não gostar cancele sem burocracia.</p>
