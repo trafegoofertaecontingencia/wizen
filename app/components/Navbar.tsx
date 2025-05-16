@@ -18,7 +18,7 @@ export default function Navbar() {
     console.log(isOpen);
 
     return (
-        <nav>
+        <nav className="relative overflow-hidden">
             <ul className="md:flex gap-3 pl-3 pr-3 pb-2 bg-[#333] text-white hidden">
                 <li><Link href="/">Início</Link></li>
                 <li><Link href="/">Contato</Link></li>
@@ -31,10 +31,11 @@ export default function Navbar() {
             className="bg-[#333] text-white cursor-pointer p-3 md:hidden" onClick={handleMenu}>
             <GiHamburgerMenu onClick={handleMenu} />
             </motion.div>
-            <motion.div className="bg-[#333] w-[100vw] p-3 absolute right-[-100%] z-1 top-[140px] overflow-hidden text-white"
+
+            <motion.div className="bg-[#333] w-[100%] p-3 absolute right-[-100%] z-1 top-[50px] text-white"
             initial={{ right: "-100%" }}
             animate={ isOpen ? { right: "0" } : { right: "-100%" }  }
-            transition={isOpen ? { duration: 0.5 } : {durantion: 0.1}}>
+            transition={isOpen ? { delay: 0.2 } : {durantion: 0.1}}>
                 <ul className="flex flex-col items-center gap-2">
                     <li>Início</li>
                     <li>Contato</li>
