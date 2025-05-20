@@ -3,6 +3,7 @@ import Intro from "./components/Intro";
 import ForYou from "./components/ForYou";
 import Solution from "./components/Solution"
 import Cta from "./components/Cta";
+import Faq from "./components/Faq";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ForYou />
         <Solution />
         <Cta />
+        <Faq />
       </main>
     </div>
   );
