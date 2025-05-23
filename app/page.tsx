@@ -4,6 +4,7 @@ import ForYou from "./components/ForYou";
 import Solution from "./components/Solution"
 import Cta from "./components/Cta";
 import Faq from "./components/Faq";
+import Video from "./components/VideoPlayer";
 
 export default function Home() {
   return (
