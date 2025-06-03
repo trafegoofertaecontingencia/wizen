@@ -5,16 +5,20 @@ import Solution from "./components/Solution";
 import Cta from "./components/Cta";
 import Faq from "./components/Faq";
 import Features from "./components/Features";
-import AboutForm from "./components/AboutForm";
+import Session1 from "./components/Session1";
+import Session2 from "./components/Session2";
+import Session3 from "./components/Session3";
+import Session4 from "./components/Session4";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <main>
         <Intro />
-        <AboutForm />
-        <AboutForm />
-        <AboutForm />
+        <Session1 />
+        <Session2 />
+        <Session3 />
+        <Session4 />
         <Features />
         {/* <Bullets /> */}
         <ForYou />

@@ -1,15 +1,15 @@
-// components/FoodPhotoSection.tsx
+// components/Session4.tsx
 import Image from 'next/image';
 
-const AboutForm = () => {
+const Session3 = () => {
   return (
-    <section className="bg-black text-white py-12 px-6 mt-5">
+    <section className="bg-black text-white pb-6 px-6 mt-5">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Imagem */}
         <div className="relative w-full h-80 md:h-96">
           <Image
-            src="/images/laptop_and_phone.png" // Troque pelo caminho correto
-            alt="Envio de fotos"
+            src="/images/laptop_and_phone.png" // Troque pelo caminho correto da imagem de metas
+            alt="Metas financeiras"
             layout="fill"
             objectFit="contain"
             className="rounded-lg"
@@ -18,13 +18,11 @@ const AboutForm = () => {
 
         {/* Texto */}
         <div className="text-center md:text-left">
-          <div className="text-4xl mb-4">📸</div>
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Adicione refeições com fotos e vídeos
+            Receba orientações inteligentes com base na sua realidade
           </h2>
           <p className="text-gray-400 mb-6">
-            Envie uma foto ou vídeo da sua refeição e calcularemos automaticamente as
-            calorias e nutrientes ao longo do dia. Incluindo produtos industrializados.
+            O Wizen analisa seus hábitos financeiros e te dá sugestões práticas para economizar, organizar e atingir seus objetivos mais rápido — como se você tivesse um consultor particular no bolso.
           </p>
           <a
             href="#"
@@ -38,4 +36,4 @@ const AboutForm = () => {
   );
 };
 
-export default AboutForm;
+export default Session3;
