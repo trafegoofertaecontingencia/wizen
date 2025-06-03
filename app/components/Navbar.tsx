@@ -9,8 +9,9 @@ export default function Navbar() {
         <nav className="bg-[#333]">
             <ul className="flex gap-3">
                 <li><Link href="/">Início</Link></li>
-                <li><Link href="/">Contato</Link></li>
-                <li><Link href="/">Sobre nós</Link></li>
+                <li><Link href="/">Funcionalidades</Link></li>
+                <li><Link href="#cta">Planos</Link></li>
+                <li><Link href="#faq">Faq</Link></li>
             </ul>
         </nav>
     )

@@ -10,7 +10,7 @@ interface VideoPlayerProps {
 
 const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, poster, className }) => {
   return (
-    <div className='flex justify-center mt-4 mb-4'>
+    <div className='flex justify-center mt-4 mb-4 max-h-[300px]'>
       <video
         className={className}
         src={src}

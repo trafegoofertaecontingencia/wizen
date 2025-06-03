@@ -37,7 +37,7 @@ const plans = [
 
 export default function Cta() {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-start gap-8 p-6">
+    <div id='cta' className="flex flex-col lg:flex-row justify-center items-start gap-8 p-6">
       {plans.map((plan) => (
         <div key={plan.name} className="w-full lg:w-1/2 bg-white dark:bg-zinc-900 p-6 rounded-2xl shadow-xl border border-zinc-200 dark:border-zinc-700">
           <h2 className="text-white text-2xl font-bold mb-1">{plan.name}</h2>
