@@ -25,7 +25,7 @@ const Session3 = () => {
             O Wizen analisa seus hábitos financeiros e te dá sugestões práticas para economizar, organizar e atingir seus objetivos mais rápido — como se você tivesse um consultor particular no bolso.
           </p>
           <a
-            href="#"
+            href="#cta"
             className="text-purple-400 hover:text-purple-300 font-semibold inline-flex items-center"
           >
             Assine agora →

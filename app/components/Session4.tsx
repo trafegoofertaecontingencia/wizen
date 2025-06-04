@@ -25,7 +25,7 @@ const Session4 = () => {
             Quer juntar para viajar? Quitar dívidas? Criar uma reserva? Com o Wizen, você cria metas financeiras personalizadas e acompanha cada etapa da sua evolução — de forma visual, motivadora e simples.
           </p>
           <a
-            href="#"
+            href="#cta"
             className="text-purple-400 hover:text-purple-300 font-semibold inline-flex items-center"
           >
             Assine agora →

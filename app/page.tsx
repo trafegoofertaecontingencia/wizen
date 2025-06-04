@@ -9,6 +9,7 @@ import Session1 from "./components/Session1";
 import Session2 from "./components/Session2";
 import Session3 from "./components/Session3";
 import Session4 from "./components/Session4";
+import HowItWorks from "./components/HowItWorks";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
         <Session2 />
         <Session3 />
         <Session4 />
-        <Features />
+        {/* <HowItWorks /> */}
+        {/* <Features /> */}
         {/* <Bullets /> */}
         <ForYou />
         <Solution />

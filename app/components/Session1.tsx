@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Session1 = () => {
   return (
-    <section className="bg-black text-white pb-6 px-6 mt-5">
+    <section id='bullets' className="bg-black text-white pb-6 px-6 mt-5">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Imagem */}
         <div className="relative w-full h-80 md:h-96">
@@ -25,7 +25,7 @@ const Session1 = () => {
             Registre suas receitas, despesas e categorias em segundos — sem complicação, sem planilhas. O Wizen organiza tudo automaticamente e atualiza seus saldos, gráficos e metas em tempo real.
           </p>
           <a
-            href="#"
+            href="#cta"
             className="text-purple-400 hover:text-purple-300 font-semibold inline-flex items-center"
           >
             Assine agora →

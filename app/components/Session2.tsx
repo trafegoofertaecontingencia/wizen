@@ -25,7 +25,7 @@ const Session2 = () => {
             Chega de se perder em números. O Wizen mostra sua trajetória com gráficos simples, saldos atualizados e comparativos mensais — pra você entender exatamente pra onde seu dinheiro está indo.
           </p>
           <a
-            href="#"
+            href="#cta"
             className="text-indigo-600 hover:text-indigo-500 font-semibold inline-flex items-center"
           >
             Assine agora →

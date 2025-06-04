@@ -43,7 +43,7 @@ export default function Cta() {
           <h2 className="text-white text-2xl font-bold mb-1">{plan.name}</h2>
           <p className="text-zinc-500 mb-3">{plan.description}</p>
           {plan.freeTrial && (
-            <div className="text-green-600 font-semibold mb-4">✨ 3 dias grátis ✨</div>
+            <div className="text-green-600 font-semibold mb-4">✨ 7 dias grátis ✨</div>
           )}
           <div className="text-white text-3xl font-bold mb-6">{plan.price}</div>
 
