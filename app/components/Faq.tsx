@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'O que é o Controle Financeiro App?',
+    question: 'O que é o  WizenApp?',
     answer: 'É um aplicativo gratuito que ajuda você a organizar suas finanças pessoais de forma simples e eficiente. Com ele, você pode registrar receitas e despesas, criar orçamentos, acompanhar metas e visualizar relatórios detalhados.',
   },
   {
@@ -15,16 +15,8 @@ const faqs = [
     answer: 'Sim! Você pode definir metas como “economizar R$ 500 por mês” ou “gastar no máximo R$ 300 com alimentação”. O app acompanha seu progresso e envia alertas para manter você no caminho certo.',
   },
   {
-    question: 'O app é gratuito?',
-    answer: 'Sim, o Controle Financeiro App é gratuito. Oferecemos também uma versão premium com recursos extras, como relatórios avançados, sincronização multi-dispositivo e exportação de dados.',
-  },
-  {
     question: 'Meus dados estão seguros?',
     answer: 'Totalmente. Utilizamos criptografia de ponta a ponta e seguimos as melhores práticas de segurança para proteger suas informações financeiras.',
-  },
-  {
-    question: 'O app funciona offline?',
-    answer: 'Sim! Você pode registrar transações mesmo sem internet. Os dados serão sincronizados automaticamente assim que você se conectar novamente.',
   },
   {
     question: 'Quais plataformas são suportadas?',

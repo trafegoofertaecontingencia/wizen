@@ -10,6 +10,7 @@ import Session2 from "./components/Session2";
 import Session3 from "./components/Session3";
 import Session4 from "./components/Session4";
 import HowItWorks from "./components/HowItWorks";
+import Garantia from "./components/Garantia";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <ForYou />
         <Solution />
         <Cta />
+        <Garantia />
         <Faq />
       </main>
     </div>
