@@ -21,7 +21,7 @@ const plans = [
   {
     name: 'Premium',
     description: 'Gestão financeira avançada e colaborativa',
-    price: 'R$239,90/ano',
+    price: 'R$89,90/semestre',
     freeTrial: true,
     features: [
       { text: 'Acesso completo ao app', included: true },
@@ -63,12 +63,12 @@ export default function Cta() {
             ))}
           </div>
 
-          {plan.price === "R$239,90/mês" ? <button className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition-colors">
-            <Link href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808496e950ee0196e99bd0690020">Testar agora</Link>
+          {plan.price === "R$29,90/mês" ? <button className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition-colors">
+            <Link href="https://pay.kiwify.com.br/vcfgqQN">Testar agora</Link>
           </button>
           :
           <button className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition-colors">
-            <Link href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808496a65d870196a6f6195d0061">Testar agora</Link>
+            <Link href="https://pay.kiwify.com.br/g60hLVG">Testar agora</Link>
           </button>}
         </div>
       ))}
