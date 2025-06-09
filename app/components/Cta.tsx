@@ -1,4 +1,5 @@
 import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
+import Link from 'next/link';
 
 const plans = [
   {
@@ -63,7 +64,7 @@ export default function Cta() {
           </div>
 
           <button className="bg-green-600 text-white px-4 py-2 rounded-xl hover:bg-green-700 transition-colors">
-            Testar agora
+            <Link href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c93808496e950ee0196e99bd0690020">Testar agora</Link>
           </button>
         </div>
       ))}

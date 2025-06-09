@@ -8,7 +8,7 @@ const Session2 = () => {
         {/* Imagem */}
         <div className="relative w-full h-80 md:h-96">
           <Image
-            src="/images/laptop_and_phone.png" // Troque pelo caminho correto
+            src="/images/dashboard.png" // Troque pelo caminho correto
             alt="Visualize sua evolução financeira"
             layout="fill"
             objectFit="contain"

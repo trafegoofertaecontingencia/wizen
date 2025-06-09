@@ -8,7 +8,7 @@ const Session1 = () => {
         {/* Imagem */}
         <div className="relative w-full h-80 md:h-96">
           <Image
-            src="/images/laptop_and_phone.png" // Troque pelo caminho correto
+            src="/images/registro.png" // Troque pelo caminho correto
             alt="Envio de fotos"
             layout="fill"
             objectFit="contain"
