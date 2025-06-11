@@ -43,7 +43,7 @@ export default function FAQSimple() {
   }
 
   return (
-    <section className="bg-slate-900 text-white py-8 px-6">
+    <section className="bg-slate-100 text-slate-900 py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
           FAQ – Perguntas Frequentes
@@ -51,15 +51,15 @@ export default function FAQSimple() {
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border border-slate-700 rounded-xl overflow-hidden">
+            <div key={index} className="border border-slate-300 rounded-xl overflow-hidden">
               <button
-                className="w-full text-left px-5 py-4 bg-slate-800 hover:bg-slate-700 transition font-medium"
+                className="w-full text-left px-5 py-4 bg-white hover:bg-slate-50 transition font-medium"
                 onClick={() => toggle(index)}
               >
                 {faq.question}
               </button>
               <div
-                className={`transition-all duration-300 px-5 text-slate-300 overflow-hidden ${
+                className={`transition-all duration-300 px-5 text-slate-600 overflow-hidden ${
                   openIndex === index ? 'max-h-96 py-4' : 'max-h-0 py-0'
                 }`}
               >

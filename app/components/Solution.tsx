@@ -1,6 +1,6 @@
 export default function Solution() {
   return (
-    <main className="bg-gradient-to-br from-slate-900 to-slate-800 text-white min-h-screen px-6 py-20">
+    <main className="bg-gradient-to-br from-slate-900 to-slate-800 text-white min-h-screen px-6 py-8">
       <section className="max-w-5xl mx-auto space-y-12">
         {/* Apresentação */}
         <div className="text-center space-y-6">

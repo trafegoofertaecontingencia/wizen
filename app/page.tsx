@@ -13,6 +13,7 @@ import HowItWorks from "./components/HowItWorks";
 import Garantia from "./components/Garantia";
 import Problem from "./components/Problem";
 import Promise from "./components/Promise";
+import BonusSection from "./components/BonusSection";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         {/* <ForYou /> */}
         <Promise />
         <Cta />
+        <BonusSection />
         <Garantia />
         <Faq />
       </main>
