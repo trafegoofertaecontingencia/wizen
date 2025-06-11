@@ -1,71 +1,74 @@
-'use client';
-import { useState } from 'react';
+'use client'
+
+import { useState } from 'react'
 
 const faqs = [
   {
-    question: 'O que é o  WizenApp?',
-    answer: 'É um aplicativo gratuito que ajuda você a organizar suas finanças pessoais de forma simples e eficiente. Com ele, você pode registrar receitas e despesas, criar orçamentos, acompanhar metas e visualizar relatórios detalhados.',
+    question: 'O app é realmente fácil de usar?',
+    answer:
+      'Sim! Ele foi criado para ser tão simples quanto uma planilha, mas muito mais visual e intuitivo. Em poucos minutos você já começa a organizar sua vida financeira.',
   },
   {
     question: 'Preciso conectar minha conta bancária?',
-    answer: 'Não. Você pode usar o app manualmente, cadastrando suas transações. Mas, se preferir, é possível integrar com seu banco para importar dados automaticamente com segurança.',
+    answer:
+      'Não! Nosso diferencial é justamente permitir total controle manual, com mais segurança, privacidade e foco.',
   },
   {
-    question: 'Posso criar metas financeiras?',
-    answer: 'Sim! Você pode definir metas como “economizar R$ 500 por mês” ou “gastar no máximo R$ 300 com alimentação”. O app acompanha seu progresso e envia alertas para manter você no caminho certo.',
+    question: 'Posso cancelar quando quiser?',
+    answer:
+      'Sim, você pode cancelar a qualquer momento direto no painel, sem multas ou taxas.',
   },
   {
-    question: 'Meus dados estão seguros?',
-    answer: 'Totalmente. Utilizamos criptografia de ponta a ponta e seguimos as melhores práticas de segurança para proteger suas informações financeiras.',
+    question: 'O que a IA faz exatamente?',
+    answer:
+      'A inteligência artificial analisa seus dados reais e te dá sugestões personalizadas para reduzir dívidas, ajustar gastos e melhorar sua vida financeira.',
   },
   {
-    question: 'Quais plataformas são suportadas?',
-    answer: 'O Controle Financeiro App está disponível para Android, iOS e também em versão web para desktop.',
+    question: 'Os bônus são entregues como?',
+    answer:
+      'Todos os bônus são liberados imediatamente após a confirmação da sua assinatura Premium.',
   },
-];
+  {
+    question: 'O plano básico é suficiente?',
+    answer:
+      'Para começar, sim. Mas os recursos Premium foram feitos para quem realmente quer transformar sua vida financeira com mais controle, clareza e suporte.',
+  },
+]
 
-export default function Faq() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+export default function FAQSimple() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null)
 
-  const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+  const toggle = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index)
+  }
 
   return (
-    <section id='faq' className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-slate-900 text-white py-8 px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Perguntas Frequentes</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+          FAQ – Perguntas Frequentes
+        </h2>
+
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b border-gray-200 pb-4">
+            <div key={index} className="border border-slate-700 rounded-xl overflow-hidden">
               <button
-                onClick={() => toggleFAQ(index)}
-                className="w-full text-left flex justify-between items-center text-gray-800 font-medium text-lg focus:outline-none"
+                className="w-full text-left px-5 py-4 bg-slate-800 hover:bg-slate-700 transition font-medium"
+                onClick={() => toggle(index)}
               >
-                <span>{faq.question}</span>
-                <svg
-                  className={`w-5 h-5 transform transition-transform duration-300 ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
+                {faq.question}
               </button>
               <div
-                className={`mt-2 text-gray-600 text-base transition-max-height duration-300 ease-in-out overflow-hidden ${
-                  openIndex === index ? 'max-h-96' : 'max-h-0'
+                className={`transition-all duration-300 px-5 text-slate-300 overflow-hidden ${
+                  openIndex === index ? 'max-h-96 py-4' : 'max-h-0 py-0'
                 }`}
               >
-                <p className="mt-2">{faq.answer}</p>
+                {faq.answer}
               </div>
             </div>
           ))}
         </div>
       </div>
     </section>
-  );
+  )
 }

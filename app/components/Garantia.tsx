@@ -2,7 +2,7 @@
 
 export default function Garantia() {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-50 text-center mt-2">
+    <div className="flex flex-col items-center justify-center bg-gray-50 text-center mt-2 py-8 px-4">
       <img
         src="/images/selo.jpg"
         alt="Selo de Garantia Wizen"

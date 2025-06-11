@@ -11,12 +11,16 @@ import Session3 from "./components/Session3";
 import Session4 from "./components/Session4";
 import HowItWorks from "./components/HowItWorks";
 import Garantia from "./components/Garantia";
+import Problem from "./components/Problem";
+import Promise from "./components/Promise";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <main>
         <Intro />
+        <Problem />
+        <Solution />
         <Session1 />
         <Session2 />
         <Session3 />
@@ -24,8 +28,8 @@ export default function Home() {
         {/* <HowItWorks /> */}
         {/* <Features /> */}
         {/* <Bullets /> */}
-        <ForYou />
-        <Solution />
+        {/* <ForYou /> */}
+        <Promise />
         <Cta />
         <Garantia />
         <Faq />
