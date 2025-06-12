@@ -4,9 +4,9 @@ export default function Garantia() {
   return (
     <div className="flex flex-col items-center justify-center bg-slate-900 text-center py-16 px-4">
       <img
-        src="/images/selo.jpg"
+        src="/images/selo.png"
         alt="Selo de Garantia Wizen"
-        className="w-36 h-auto mb-6"
+        className="w-60 h-auto mb-6"
       />
 
       <h1 className="text-3xl font-bold text-white mb-4">

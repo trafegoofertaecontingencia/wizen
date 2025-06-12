@@ -17,9 +17,7 @@ export default function Intro() {
         </h2>
 
         {/* Vídeo demonstrativo */}
-        <div className="w-full max-w-3xl rounded-xl overflow-hidden shadow-lg border border-slate-700">
-          <VideoPlayer src="/videos/showing.mp4" />
-        </div>
+        <img className="w-80" src="/images/main-mockup.png" alt="" />
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-slate-300 max-w-3xl">

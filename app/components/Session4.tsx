@@ -7,7 +7,7 @@ const Session4 = () => {
         {/* Imagem */}
         <div className="relative w-full h-80 md:h-96">
           <Image
-            src="/images/metas.png"
+            src="/images/mockup-session-4.png"
             alt="Defina metas financeiras"
             layout="fill"
             objectFit="contain"
